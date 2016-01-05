@@ -42,14 +42,14 @@ documentEl.on('scroll', function(){
 
 var scrollY = 0;
 var distance = 40;
-var speedMultiplier = 10;
+var speedMultiplier = 24;
 function autoScrollTo(el) {
 	var currentY = window.pageYOffset;
 	var targetY = document.getElementById(el).offsetTop;
 	var bodyHeight = document.body.offsetHeight;
 	var yPos = currentY + window.innerHeight;
 
-	var speed = 15 - (((targetY - currentY) / targetY) * speedMultiplier);
+	var speed = speedMultiplier - (((targetY - currentY) / targetY) * speedMultiplier);
 	
 	var animator = setTimeout('autoScrollTo(\''+el+'\')',speed);
 	if(yPos > bodyHeight){
