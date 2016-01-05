@@ -1,0 +1,335 @@
+/**********************************
+GENERAL
+***********************************/
+
+html { 
+
+    }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 10 0 1em 0;
+    padding: 5% 0 0 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+ display: block;
+  padding: 5px 0 0 0;
+  width: 100%;
+height: 90px;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+.content_big {
+   
+    background-color: #808080;
+}
+
+
+.content {
+    background-color: #333;
+}
+
+.clear{clear: both;}
+
+.secgallery {background-color: #5A5A5A}
+
+#Port_Title{margin-top: 0;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.hero{
+    padding: 300px;
+    background-image: url(../img/code_1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    
+}
+
+.hero h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.para{text-align: center;
+    color: #ffffff;}
+
+.cool_tag{
+    
+    height: 242px;
+    width: 100%;
+}
+
+.wrap-container{
+    
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 100px;
+    color: black;
+}
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+.gallery {
+  margin: 0;
+  padding: 0 0 50% 0;
+  list-style: none;
+}
+
+.gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #bdc3c7;
+  color: #f5f5f5;
+}
+
+.pgallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+    
+
+}
+
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+#contact {margin-left: 2.5%; }
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #8F8F8F;
+  color: #ffffff;
+}
+
+/* blue header */
+header {
+  background: #46B0DD;
+  border-color: #2C91BC;
+}
+
+/* nav background on mobile */
+nav {
+  background: #2C91BC;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #00FFFF;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #000;
+}
+
+
+
+
+
+/*Makes the screen dark when clicking on image*/
+
+#overlay {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left 0;
+    display: none;
+    text-align: center;
+}
+
+
+/*Styling the overlay's image*/
+#overlay img {
+    margin-top: 5%;
+    max-width: 900px;
+    max-height: 500px;
+    
+    
+    
+}
+
+.clearfix{
+    
+    clear:both;
+}
+
+/*Scrolling light box*/
+
+
+
+/*Flex wrapper Not acutally used website, for future
+*/
+
+/*.flex_wrapper{display: flex;
+flex-flow: row wrap;
+}
+
+.flex_box{width:241px;
+    
+}
+
+.flex_box img{height: 241px;
+width: 100%;}*/
