@@ -58,7 +58,6 @@ function autoScrollTo(el) {
 		if(currentY < targetY-distance){
 		    scrollY = currentY+distance;
 		    window.scroll(0, scrollY);
-			console.log(speed)
 	    } else {
 		    clearTimeout(animator);
 	    }
