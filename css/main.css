@@ -163,6 +163,15 @@ footer {
   margin: 0 5px;
 }
 
+.ResumeFooter {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+    
+}
+
 
 
 /**********************************
@@ -271,7 +280,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #00FFFF;
+  color: #2BC1F2;
 }
 
 /* nav link */
@@ -316,24 +325,6 @@ nav a.selected, nav a:hover {
     
     clear:both;
 }
-
-/*Scrolling light box*/
-
-
-
-/*Flex wrapper Not acutally used website, for future
-*/
-
-/*.flex_wrapper{display: flex;
-flex-flow: row wrap;
-}
-
-.flex_box{width:241px;
-    
-}
-
-.flex_box img{height: 241px;
-width: 100%;}*/
 
 
 /*COntact form*/
@@ -391,4 +382,32 @@ font-size:18px;
 font-weight:700;
 cursor:pointer;
 font-family:'Ubuntu',sans-serif
+}
+
+
+.resumeImg{
+    margin: auto;
+    width: 100%;
+    border: 3px solid #2BC1F2;
+
+}
+.resumeContainer{
+    margin: auto;
+    width: 50%;
+}
+
+.BoldTitle{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 50px;
+}
+.ResumeContent{
+    background-color:  #333;
+    width: auto;
+    
 }
