@@ -93,12 +93,23 @@ h2 {
     
 }
 
+.heroResume{
+    padding: 0 300px 300px 300px;
+    background-image: url(../img/new_cde.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    }
+
 .hero h1{
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
     font-size: 70px;
 }
+
 
 .para{text-align: center;
     color: #ffffff;}
@@ -393,21 +404,26 @@ font-family:'Ubuntu',sans-serif
 }
 .resumeContainer{
     margin: auto;
-    width: 50%;
+    width: 70%;
 }
 
 .BoldTitle{
     text-align: center;
     text-transform: uppercase;
     color: white;
-    font-size: 70px;
     display: block;
     margin: auto;
-    width: 40%;
-    padding: 50px;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    color: #ffffff;
+    font-size: 70px;
 }
+
+.BoldTitle a{
+    color:darkgray;
+}
+
 .ResumeContent{
     background-color:  #333;
-    width: auto;
-    
+    width: auto;   
 }
