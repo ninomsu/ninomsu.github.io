@@ -97,23 +97,24 @@
     font-size: 2.5em;
 
   }
-    .BoldTitle h1 {
+    .BoldTitle{
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1em;
 
   }
     .profile-photo {
     margin: auto;
-        width: 50%;
+    width: 50%;
         
   }
     .AboutMeSectionContent{
     padding: .5em;
   }
-    .hero{
-        margin: 0;
+    .hero, .heroResume{
+        margin: 0px;
         padding: 0;
     }
+    
     .AboutMeSection{
         margin: 0;
         padding: 0;
@@ -121,21 +122,19 @@
     .github-photo{
         width: 50%;
     }
+
 }
 
 @media screen and (max-width: 740px){
 .hero {
-    padding: 300px 10%;
+    padding: 100px 10%;
+  }
+    .heroResume {
+    padding: 50px 10%;
   }
 
 }
 
-@media screen and (max-width: 740px){
-.heroResume {
-    padding: 300px 10%;
-  }
-
-}
 @media screen and (max-width: 436px){
 div#main{
     display: none; }
