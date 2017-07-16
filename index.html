@@ -34,9 +34,7 @@
       <nav>
         <ul>
           <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('wrapper');">About</a></li>
-          <li><a href="index.html" href="#" onclick="return false;" onmousedown="autoScrollTo('portfolio_gal');">Portfolio</a></li>
-          <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('contact');">Contact</a></li>
-          <li><a href="Resume.html">Resume</a></li>
+          <li><a href="resume.html">Resume</a></li>
         </ul>
       </nav>
     </header>
@@ -45,97 +43,23 @@
 <!--            Beggining of About me section-->
           <div class="content">
               <div class="hero">
-                <h1>Software Engineer</h1>
-                        <section>
-        <img src="img/fb_profile_pic.jpg" alt="Photo of Antonino Candela" class="profile-photo">
-        <h3>About</h3>
-        <p>Hello my name is Antonino Candela (You can just call me Nino), and I'm an aspiring Computer Scientist at Michigan State University! I have experience with Python, HTML/CSS, C, C++, GIT, Bash Shell, Linux, and QT! Please take a look around the website and contact me with any questions you may have. I'm currently open to trying out different types development to see what work I want to do in the future. I'm interested in both Front-End and Back-End deveolping! Other activities that I'm interested in (other than coding) include running, soccer, speaking Italian, photography, and adventurous activities!</p>
-        <p>I also do photography on the side, click <a href="https://www.flickr.com/photos/141878173@N02/">here!</a>.</p>
-      </section>
-              </div>
-               <div id="wrapper" class="content_box">
-                   
+                  <div class="AboutMeSection">
+                      <div class="AboutMeSectionContent">
+                        <h1>Software Engineer</h1>
+                            <section>
+                                <a href="https://www.linkedin.com/in/antonino-candela-781b66112/"><img src="img/fb_profile_pic.jpg" alt="Photo of Antonino Candela" class="profile-photo"></a>
+                                <h3>Personal Info</h3>
+                                <p>Hello and welcome to my website! My name is Antonino Candela (You can just call me Nino), and I'm an aspiring Computer Scientist at Michigan State University. I have experience with Python, HTML/CSS, C, C++, C#, GIT, Bash Shell, Linux, QT, .NET, and Angular 1. I'm interested in both Front-End and Back-End development. I've taken many classes at Michigan State, including: Mobile App Development, Algorithms Engineering, Web Architecture, Networks, and Artificial Intelligence. Currently the most interesting topic in computer scinece to me is blockchain technology. I've had internships at Gerneral Dynamics and Crowe Horwath LLP. Please take a look around the website and contact me with any questions you may have or employment opportunities.</p>
+                                <div class="github-text">
+                                <h3>Portfolio</h3>
+                                <p> Interested in some of my coding projects outside of school? Checkout my GitHub!</p>
+                                <a href="https://github.com/ninomsu"> <img src="img/github1600.png" alt="github logo" style="width: 30%;Z"></a>
+                                </div>                                                        
+                          </section>
 
-    <section>
-        <ul class="gallery" id="gallery">
-          <li>
-            <a href="img/msu_family.jpg">
-              <img src="img/msu_family.jpg" alt="" class="cool_tag">
-            </a><div class='wrap-container'>
-              <p>Born and raised into a Spartan family!</p>
-              </div>
-          </li>
-            <li>
-            <a href="img/the_david.jpg">
-              <img src="img/the_david.jpg" alt="" class="cool_tag">
-              </a><div class='wrap-container'>
-            <p>Seeing The David in Florence Italy, while studying abroad!</p>
-                </div>
-          </li>
-         <li>
-            <a href="img/skydiving.jpg">
-              <img src="img/skydiving.jpg" alt="" class="cool_tag">
-            </a><div class='wrap-container'>
-             <p>First time skydiving!</p>
-             </div>
-          </li>
-             
-        </ul>
-        
-      </section>
-        <div class="clearfix"></div>
-                </div>
-            </div>
-          </div>
-      </div>
-  </div>
-      </section> 
-
-      
- <!--End of About me section-->
-<!--Beggining of Portfolio page-->
-    <div id="portfolio_gal" class="content_box">
-    <section class="secgallery">
-        <h3 id="Port_Title">Portfolio (Past Projects)</h3>
-        
-        <ul class="gallery" id="gallery">
-          <li>
-            <a href="img/Italian%20Conjugator%20Screen%20shot.png">
-              <img src="img/italian_conjugator.png" alt=""></a>
-              <div class='wrap-container'>
-              <p>A progam I made in Python for me to study conjugating for my Italian Class.</p> </div>
-          </li>
-          <li>
-            <a href="img/Solitair%20Screenshot.png">
-              <img src="img/solitaire.png" alt=""></a><div class='wrap-container'>
-              <p>I made the game solitair with an active changing display in Python for class.</p> </div>
-          </li>
-          <li>
-            <a href="img/html_screenshot.png">
-              <img src="img/HTML.png" alt=""></a><div class='wrap-container'>
-              <p>A snapshot of the HTML I used to make this website</p> </div>
-          </li>
-          <li>
-            <a href="img/css_screenshot.png">
-              <img src="img/CSS.png" alt=""></a><div class='wrap-container'>
-              <p>A snapshot of the CSS I used to make this website</p> </div>
-          </li>
-          <li>
-            <a href="img/javascript_screenshot.png">
-              <img src="img/javascript.png" alt=""></a><div class='wrap-container'>
-              <p>A snapshot of the Javascript I used to make this website</p> </div>
-          </li>
-            <li>
-            <a href="img/site_initial.png">
-              <img src="img/personal_website.png" alt=""></a><div class='wrap-container'>
-              <p>This was the initial concept of the website, but through small changes it has evolved.</p> </div>
-          </li>
-        </ul>
-        <div class="clear"></div>
-      </section>
-    </div>
-      
-      <div id="contact" class="content_box">
+                      </div>
+                                              
+    <div id="contact" class="content_box">
       <section id="primary">
         <h3>General Information</h3>
         <p>I'm currently looking for Internship/Coopertive working opportunities related to Computer Science. </p>
@@ -165,20 +89,18 @@
 			</form>
 			</div> <!-- Include JS file here -->
 		</div>
-          
-        
-                  
       </section>
-     <div class="clear"></div>
-    </div>
-
-
-
-      <footer>
+       <footer>
         <a href="https://www.facebook.com/nino.candela.9"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon">             </a>
         <p>&copy; 2017 Antonino Candela</p>
-      </footer>    
-    
+      </footer>  
+     <div class="clear"></div>
+    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>    
     <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
   </body>

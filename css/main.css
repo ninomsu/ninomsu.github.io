@@ -83,8 +83,8 @@ h2 {
 }
 
 .hero{
-    padding: 300px;
-    background-image: url(../img/new_cde.jpg);
+    padding: 200px;
+    background-image: url(../img/code-world.jpg);
     background-size: cover;
     background-attachment: fixed;
     -webkit-transition: all 0.2s ease;
@@ -110,12 +110,22 @@ h2 {
     font-size: 70px;
 }
 
-
+.AboutMeSection{
+    background-color: black;
+    opacity: .85;
+    filter: alpha(opacity=85); /* For IE8 and earlier */
+    box-shadow: 0 0 5px 10px #555;
+}
+.AboutMeSectionContent{
+    padding: 4em;
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    display: block;
+}
 .para{text-align: center;
     color: #ffffff;}
 
 .cool_tag{
-    
     height: 242px;
     width: 100%;
 }
@@ -218,14 +228,23 @@ PAGE: ABOUT
 
 .profile-photo {
   display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
   border-radius: 100%;
-    
-
+  max-width: 150px;
 }
 
+.github-photo{
+ style="width: 30%;
+}
+.portfolio-content{
+    display: block;
+    max-width: 170px;
+    float: left;
+}
 
+.github-text{
+    text-align: center;
+    
+}
 
 /**********************************
 PAGE: CONTACT
