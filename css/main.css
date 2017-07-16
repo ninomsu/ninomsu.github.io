@@ -138,6 +138,11 @@ h2 {
     box-sizing: border-box;
     min-height: 100px;
     color: black;
+
+}
+#secondary{
+    
+    float: right;
 }
 /**********************************
 NAVIGATION

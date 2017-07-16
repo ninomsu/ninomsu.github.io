@@ -10,17 +10,6 @@
     float: left;
   }
   
-    #primary p {
-        color: back;
-        
-    }
-  #secondary {
-    width: 40%;
-    float: right;
-  }
-    
-    
-
 .hero h1 {
     text-align: center;
 
@@ -81,6 +70,11 @@
     border-bottom: 5px solid #2C91BC;
 
   }
+  .BoldTitle{
+    text-align: center;
+    font-size: 5em;
+
+  }
 }
 
  
@@ -131,6 +125,11 @@
   }
     .heroResume {
     padding: 50px 10%;
+  }
+    .BoldTitle{
+    text-align: center;
+    font-size: 1.5em;
+
   }
 
 }
