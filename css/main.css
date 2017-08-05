@@ -83,8 +83,8 @@ h2 {
 }
 
 .hero{
-    padding: 200px;
-    background-image: url(../img/code-world.jpg);
+    padding: 10%;
+    background-image: url(../img/brain.jpg);
     background-size: cover;
     background-attachment: fixed;
     -webkit-transition: all 0.2s ease;
@@ -288,7 +288,7 @@ PAGE: CONTACT
 COLORS
 ***********************************/
 
-/* site body */
+/* site body #46B0DD #2C91BC*/
 body {
   background-color: #8F8F8F;
   color: #ffffff;
@@ -296,13 +296,13 @@ body {
 
 /* blue header */
 header {
-  background: #46B0DD;
-  border-color: #2C91BC;
+  background: #004BC1;
+  border-color: #033B9C;
 }
 
 /* nav background on mobile */
 nav {
-  background: #2C91BC;
+  background: #033B9C;
 }
 
 /* logo text */
