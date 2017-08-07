@@ -94,7 +94,7 @@ h2 {
 }
 
 .heroResume{
-    padding: 0 300px 300px 300px;
+    padding: 2.5%;
     background-image: url(../img/new_cde.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -116,6 +116,14 @@ h2 {
     filter: alpha(opacity=85); /* For IE8 and earlier */
     box-shadow: 0 0 5px 10px #555;
 }
+
+.resumeDownloadTitle{
+    background-color: black;
+    opacity: .85;
+    filter: alpha(opacity=85); /* For IE8 and earlier */
+    box-shadow: 0 0 5px 10px #555;
+}
+
 .AboutMeSectionContent{
     padding: 4em;
     opacity: 1;
@@ -440,11 +448,13 @@ font-family:'Ubuntu',sans-serif
     font-size: 70px;
 }
 
-.BoldTitle a{
-    color:darkgray;
-}
 
 .ResumeContent{
     background-color:  #333;
     width: auto;   
+}
+
+.resumeImage{
+    
+    margin-top: 3%;
 }

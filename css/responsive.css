@@ -86,23 +86,28 @@
     margin: 10%;
   }
 
-    .hero h1 {
+    .hero h1, {
     text-align: center;
     font-size: 2.5em;
 
   }
     .BoldTitle{
     text-align: center;
-    font-size: 1em;
-
+    padding: 1%;
+    font-size: .25em; 
   }
+    .resumeImage{
+        margin-top: 10%
+    }
+
     .profile-photo {
     margin: auto;
     width: 50%;
         
   }
-    .AboutMeSectionContent{
-    padding: .5em;
+    .resumeDownloadTitle{
+        filter: alpha(opacity=85); /* For IE8 and earlier */
+    box-shadow: 0 0 2px 2px #555;
   }
     .hero, .heroResume{
         margin: 0px;
