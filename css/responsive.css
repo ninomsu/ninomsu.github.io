@@ -35,6 +35,50 @@
   
 }
 
+
+
+@media screen and (max-width: 1200px) {
+
+.BoldTitle{
+    text-align: center;
+    padding: 1%;
+    font-size: .25em;
+  }
+    .resumeDownloadTitle{
+    filter: alpha(opacity=85); /* For IE8 and earlier */
+    box-shadow: 0 0 4px 4px #555;
+    margin: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+.BoldTitle{
+    text-align: center;
+    padding: 1%;
+    font-size: .25em;
+  }
+    .resumeDownloadTitle{
+    filter: alpha(opacity=85); /* For IE8 and earlier */
+    box-shadow: 0 0 4px 4px #555;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+
+.BoldTitle{
+    text-align: center;
+    padding: 1%;
+  }
+    .resumeDownloadTitle{
+    filter: alpha(opacity=85); /* For IE8 and earlier */
+    box-shadow: 0 0 4px 4px #555;
+  }
+}
+
 @media screen and (min-width: 660px) {
 
   /**********************************
@@ -72,7 +116,7 @@
   }
   .BoldTitle{
     text-align: center;
-    font-size: 5em;
+    font-size: 2.5em;
 
   }
 }
@@ -143,5 +187,6 @@
 div#main{
     display: none; }
 }
-       
-}
+
+
+
