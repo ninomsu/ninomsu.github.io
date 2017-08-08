@@ -424,13 +424,6 @@ cursor:pointer;
 font-family:'Ubuntu',sans-serif
 }
 
-
-.resumeImg{
-    margin: auto;
-    width: 100%;
-    border: 3px solid #2BC1F2;
-
-}
 .resumeContainer{
     margin: auto;
     width: 70%;
@@ -443,9 +436,9 @@ font-family:'Ubuntu',sans-serif
     display: block;
     margin: auto;
     width: 100%;
-    padding: 50px 0px 50px 0px;
+    padding: 1%;
     color: #ffffff;
-    font-size: 70px;
+    font-size: 2.5em;
 }
 
 
@@ -456,5 +449,7 @@ font-family:'Ubuntu',sans-serif
 
 .resumeImage{
     
-    margin-top: 3%;
+    margin: 3% auto auto auto;
+    width: 100%;
+    border: 3px solid #2BC1F2;
 }
