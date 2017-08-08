@@ -114,14 +114,14 @@ h2 {
     background-color: black;
     opacity: .85;
     filter: alpha(opacity=85); /* For IE8 and earlier */
-    box-shadow: 0 0 5px 10px #555;
+    box-shadow: 0 0 2px 2px #555;
 }
 
 .resumeDownloadTitle{
     background-color: black;
     opacity: .85;
     filter: alpha(opacity=85); /* For IE8 and earlier */
-    box-shadow: 0 0 5px 10px #555;
+    box-shadow: 0 0 2px 2px #555;
 }
 
 .AboutMeSectionContent{
