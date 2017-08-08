@@ -288,7 +288,6 @@ PAGE: CONTACT
   background-image: url('../img/mail-test.png');
 }
 
-#contact {margin-left: 2.5%; }
 
 
 
@@ -377,14 +376,7 @@ margin:0 auto;
 font-family:'Ubuntu',sans-serif;
 display: inline;
 }
-div#form_sample{
-text-align:center;
-width:400px;
-padding:0 50px 15px;
-margin-top:20px;
-border-radius:6px;
-float:left;
-}
+
 #main h1{
 margin: 2.5% 0 0 2.5%;
 font-size: 2em;
