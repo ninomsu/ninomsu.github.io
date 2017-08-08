@@ -30,17 +30,19 @@
 
 @media screen and (max-width: 1200px) {
 
-.BoldTitle{
-    text-align: center;
-    padding: 1%;
-    font-size: .25em;
-  }
+    .BoldTitle{
+        text-align: center;
+        padding: 1%;
+        font-size: .25em;
+    }
+    
     .resumeDownloadTitle{
-    filter: alpha(opacity=85); /* For IE8 and earlier */
-    box-shadow: 0 0 4px 4px #555;
-    margin: 0;
-  }
-        .github-photo{
+        filter: alpha(opacity=85); /* For IE8 and earlier */
+        box-shadow: 0 0 4px 4px #555;
+        margin: 0;
+    }
+    
+    .github-photo{
         width: 30%;
     }
 
@@ -83,19 +85,20 @@
     }
 
     .AboutMeSection{
-        padding: 3%;
-        
+        padding: 3%;        
     }
     
-    h3{
+    .github-text {
         text-align: center;
         
     }
+
 }
+
 @media screen and (max-width: 900px) {
 
-div#main{
-    display: none; 
+    div#main{
+        display: none; 
     }
     
 }
@@ -209,20 +212,21 @@ div#main{
 }
 
 @media screen and (max-width: 740px){
-.hero {
-    padding: 100px 10%;
-  }
+    .hero {
+        padding: 100px 10%;
+    }
     .heroResume {
-    padding: 50px 10%;
-  }
+        padding: 50px 10%;
+    }
     .BoldTitle{
-    text-align: center;
-    font-size: 1.5em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    div#main{
+        display: none; }
+    }
 
-  }
-        div#main{
-    display: none; }
-}
     .github-photo {
         width: 50%
         
@@ -230,9 +234,9 @@ div#main{
 }
 
 @media screen and (max-width: 436px){
-div#main{
-    display: none; }
-}
+    div#main{
+        display: none; }
+    }
 
 
 
