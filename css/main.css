@@ -212,33 +212,6 @@ footer {
 
 
 /**********************************
-PAGE: PORTFOLIO
-***********************************/
-
-.gallery {
-  margin: 0;
-  padding: 0 0 50% 0;
-  list-style: none;
-}
-
-.gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #bdc3c7;
-  color: #f5f5f5;
-}
-
-.pgallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7;
-}
-
-
-
-/**********************************
 PAGE: ABOUT
 ***********************************/
 
@@ -248,9 +221,7 @@ PAGE: ABOUT
   max-width: 150px;
 }
 
-.github-photo{
- width: 30%;
-}
+
 .portfolio-content{
     display: block;
     max-width: 170px;
@@ -334,33 +305,6 @@ nav a.selected, nav a:hover {
   color: #000;
 }
 
-
-
-
-
-/*Makes the screen dark when clicking on image*/
-
-#overlay {
-    background: rgba(0,0,0,0.7);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left 0;
-    display: none;
-    text-align: center;
-}
-
-
-/*Styling the overlay's image*/
-#overlay img {
-    margin-top: 5%;
-    max-width: 900px;
-    max-height: 500px;
-    
-    
-    
-}
 
 .clearfix{
     

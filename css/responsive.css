@@ -42,11 +42,6 @@
         margin: 0;
     }
     
-    .github-photo{
-        width: 30%;
-    }
-
-
 }
 
 
@@ -90,7 +85,10 @@
     
     .github-text {
         text-align: center;
+    }
+    .github-photo{
         
+        width: 40%
     }
 
 }
@@ -106,14 +104,14 @@
 
 @media screen and (max-width: 850px) {
 
-.BoldTitle{
-    text-align: center;
-    padding: 1%;
-  }
+    .BoldTitle{
+        text-align: center;
+        padding: 1%;
+    }
     .resumeDownloadTitle{
-    filter: alpha(opacity=85); /* For IE8 and earlier */
-    box-shadow: 0 0 4px 4px #555;
-  }
+        filter: alpha(opacity=85); /* For IE8 and earlier */
+        box-shadow: 0 0 4px 4px #555;
+    }
     
 
 
@@ -204,9 +202,6 @@
         margin: 0;
         padding: 1%;
     }
-    .github-photo{
-        width: 50%;
-    }
 
 
 }
@@ -227,10 +222,6 @@
         display: none; }
     }
 
-    .github-photo {
-        width: 50%
-        
-    }
 }
 
 @media screen and (max-width: 436px){
