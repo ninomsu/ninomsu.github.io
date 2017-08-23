@@ -22,8 +22,9 @@
   .profile-photo {
     float: left;
     margin: 5% 5% 70px 0;
+      
   }
-  
+
 }
 
 
@@ -82,15 +83,13 @@
     .AboutMeSection{
         padding: 3%;        
     }
-    
-    .github-text {
-        text-align: center;
-    }
-    .github-photo{
+    .github-pic{
         
-        width: 40%
+        max-width:175px; 
+        float: left; 
+        margin-right: 3%;
     }
-
+    
 }
 
 @media screen and (max-width: 900px) {
@@ -114,6 +113,12 @@
     }
     
 
+   .github-pic{
+        display:block;
+        margin: auto;
+        float:none;
+        
+    }
 
 
 }
@@ -189,6 +194,8 @@
     width: 50%;
         
   }
+      
+
     .resumeDownloadTitle{
         filter: alpha(opacity=85); /* For IE8 and earlier */
     box-shadow: 0 0 2px 2px #555;
@@ -222,11 +229,13 @@
         display: none; }
     }
 
+
 }
 
 @media screen and (max-width: 436px){
     div#main{
         display: none; }
+    
     }
 
 
